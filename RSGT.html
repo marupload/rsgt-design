@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Red Sea Gate Terminal</title>
+</head>
+<body>
+    <div class="menubar">
+      <h1 class="logo"><img src="logo-rdgt-port.webp" alt="logo" width="450px"></h1>
+
+      <ul>
+        <li><a href="#">Shipping line <i class="fas fa-caret-down"></i> </a>
+            <div class="dropdown-menu">
+                <ul>
+                    <div class="myDIV"><li><a href="#">Update Vessel ETA <i class="fas fa-caret-right"></i> </a></div>
+                            <div class="hide"><table bgcolor="black" width="1000">
+                            <table bgcolor="black" width="1000">
+                                <tr bgcolor="#DBDADD" align="center">
+                                <th width="125">Vessel Name</th>
+                                <th width="125">VOY no</th>
+                                <th width="125">Service name</th>
+                                <th width="125">Date and time</th>
+                                <th width="125">Vessel draft</th>
+                                <th width="125"> LOA</th>
+                                <th width="125"> Total Moves</th>
+                                <th width="125"> Previous and Next Port</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li><a href="#">Container terminal services <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-2">
+                            <ul>
+                                <div class="myDIV2"><li><a href="#">The supply of potable water to vessels alongside the Container Terminal<i class="fas fa-caret-right"></i></a></div>
+                                    <div class="hide1"><table bgcolor="black" width="500">
+                                        <table bgcolor="black" width="500">
+                                            <tr bgcolor="#DBDADD" align="center">
+                                            <th width="50">Vessel Name</th>
+                                            <th width="50">VOY no</th>
+                                            <th width="50">Date and time</th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </li>
+                                <div class="myDIV3"><li><a href="#">Performing weighing of containers and trucks within the Container Terminal<i class="fas fa-caret-right"></i></a></li></div>
+                                <div class="hide2"><table bgcolor="black" width="500">
+                                    <table bgcolor="black" width="500">
+                                        <tr bgcolor="#DBDADD" align="center">
+                                        <th width="50">Container and Truck details</th>
+                                        <th width="50">Date and time</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <li><a href="#">Container repair</a></li>
+                                <div class="myDIV4"><li><a href="#">Container Photos<i class="fas fa-caret-right"></i></a></li></div>
+                                <div class="hide3"><table bgcolor="black" width="500">
+                                    <table bgcolor="black" width="500">
+                                        <tr bgcolor="#DBDADD" align="center">
+                                        <th width="50">Container nos</th>
+                                        <th width="50">Upload photo</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="myDIV5"><li><a href="#">Container Condition Inspection<i class="fas fa-caret-right"></i></a></li></div>
+                                <div class="hide4"><table bgcolor="black" width="500">
+                                    <table bgcolor="black" width="500">
+                                        <tr bgcolor="#DBDADD" align="center">
+                                        <th width="50">Container nos</th>
+                                        <th width="50">Condition status</th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Non-standard-container services <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-3">
+                            <ul>
+                                <li><a href="#">Measuring Out of Gauge Containers</a></li>
+                                <li><a href="#">Collapsing/un-collapsing flat racks</a></li>
+                                <li><a href="#">Bundling/Un-bundling Flat-Racks</a></li>
+                                <li><a href="#">Break Bulk & OOG :</a></li>
+                                <li><a href="#">Direct Delivery appointment</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Reefer Services <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-4">
+                            <ul>
+                                <li><a href="#">Retrieving data from Reefer data logger</a></li>
+                                <li><a href="#">Pre-Trip Inspection (PTI) </a></li>
+                                <li><a href="#">Refrigerant gas</a></li>
+                                <li><a href="#">Reefer Repair </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Documentation services <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-DS">
+                            <ul>
+                                <li><a href="#">Final Vessel Load List</a></li>
+                                <li><a href="#">Empty Recap (Outbound)</a></li>
+                                <li><a href="#">specific containers for loading if required as part of the Empty Recap</a></li>
+                                <li><a href="#">Terminal Departure Report (TDR)</a></li>
+                                <li><a href="#">Data Amendment ( POD Change )</a></li>
+                                <li><a href="#">Empty nomination request </a></li>
+                                <li><a href="#">Container Holds</a></li>
+                            </ul>
+                        </div></li>
+                    <li><a href="#">Berth Services <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-BS">
+                            <ul>
+                                <li><a href="#">Request for LAY BY </a></li>
+                                <li><a href="#">Request for Stay on berth after completion </a></li>
+                                <li><a href="#">The medical examination for Maritime Shipping Crew for all coming vessels as a new service from the terminal after agreed with subcontractor ( hospital )</a></li>
+                            </ul>
+                        </div></li>
+                    <li><a href="#">Gate /Yard services <i class="fas fa-caret-right"></i> </a>
+                    <div class="dropdown-menu-GYS">
+                        <ul>
+                            <li><a href="#">Request for Checking seal before gate in </a></li>
+                            <li><a href="#">Request for Checking seal in yard</a></li>
+                            <li><a href="#">Request for Full export reefer container fast-lane </a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="#">Vessel planning ( Manual ) <i class="fas fa-caret-right"></i> </a>
+                    <div class="dropdown-menu-VPM">
+                        <ul>
+                            <li><a href="#">Baplie ( Discharge Plan) / Movins ( Loading Plan ) / files usually uploading to our data base but the few of shipping lines not provide the same ,which required to update those data manually on our system by planning users which it take time to adjust the discharge and load 
+                                So, suggest to add extra charge for said service</a></li>
+                        </ul>
+                    </div></li>
+                    <li><a href="#">Online Additional Service Request <i class="fas fa-caret-right"></i> </a>
+                        <div class="dropdown-menu-OASR">
+                            <ul>
+                                <li><a href="#">Request for additional loading after applied cutoff time or after vessel start work</a></li>
+                                <li><a href="#">Rolling Export Container from Vessel to Vessel</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">RSGT<i class="fas fa-caret-down"></i> </a>
+            <div class="dropdown-menu-10">
+                <ul>
+                    <div class="myDIV6"><li><a href="#">Terminal Live Operations<i class="fas fa-caret-right"></i></a></li></div>
+                    <div class="hide5">
+                        <table bgcolor="black" width="1200">
+                            <tr bgcolor="#DBDADD" align="center">
+                            <th width="125"></th>
+                            <th width="125">ON/OFF</th>
+                            <th width="125">User login</th>
+                            <th width="125">Handling type</th>
+                            <th width="125">Last update</th>
+                            <th width="125">Mins</th>
+                            <th width="125">Vessel name</th>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC11</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:26</td>
+                                <td width="125">3</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC12</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:27</td>
+                                <td width="125">2</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC13</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:29</td>
+                                <td width="125">0</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC17</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:20</td>
+                                <td width="125">9</td>
+                                <td width="125">MSC CANDICE</td>
+                                <tr bgcolor="white" align="center">
+                                    <td width="125">QC18</td>
+                                    <td width="125">ON</td>
+                                    <td width="125"></td>
+                                    <td width="125">Auto</td>
+                                    <td width="125">4/4/2024 10:25</td>
+                                    <td width="125">4</td>
+                                    <td width="125">MSC CANDICE</td>
+                                    <tr bgcolor="white" align="center">
+                                        <td width="125">QC19</td>
+                                        <td width="125">ON</td>
+                                        <td width="125"></td>
+                                        <td width="125">Manual</td>
+                                        <td width="125">4/4/2024 10:26</td>
+                                        <td width="125">2</td>
+                                        <td width="125">MSC CANDICE</td>
+                                    </tr>
+                                </tr>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="hide6"><table bgcolor="black" width="1200">
+                        <table bgcolor="black" width="1200">
+                            <tr bgcolor="#DBDADD" align="center">
+                            <th width="125"></th>
+                            <th width="125">ON/OFF</th>
+                            <th width="125">User login</th>
+                            <th width="125">Handling type</th>
+                            <th width="125">Last update</th>
+                            <th width="125">Mins</th>
+                            <th width="125">Vessel name</th>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC11</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:26</td>
+                                <td width="125">3</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC12</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:27</td>
+                                <td width="125">2</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC13</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:29</td>
+                                <td width="125">0</td>
+                                <td width="125">MSC CANDICE</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC17</td>
+                                <td width="125">ON</td>
+                                <td width="125"></td>
+                                <td width="125">Manual</td>
+                                <td width="125">4/4/2024 10:20</td>
+                                <td width="125">9</td>
+                                <td width="125">MSC CANDICE</td>
+                                <tr bgcolor="white" align="center">
+                                    <td width="125">QC18</td>
+                                    <td width="125">ON</td>
+                                    <td width="125"></td>
+                                    <td width="125">Auto</td>
+                                    <td width="125">4/4/2024 10:25</td>
+                                    <td width="125">4</td>
+                                    <td width="125">MSC CANDICE</td>
+                                    <tr bgcolor="white" align="center">
+                                        <td width="125">QC19</td>
+                                        <td width="125">ON</td>
+                                        <td width="125"></td>
+                                        <td width="125">Manual</td>
+                                        <td width="125">4/4/2024 10:26</td>
+                                        <td width="125">2</td>
+                                        <td width="125">MSC CANDICE</td>
+                                    </tr>
+                                </tr>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="myDIV9"><li><a href="#">Crane Maintenance<i class="fas fa-caret-right"></i></a></li></div>
+                    <div class="hide9"><table bgcolor="black" width="1200">
+                        <table bgcolor="black" width="1200">
+                            <tr bgcolor="#DBDADD" align="center">
+                            <th width="125">Crane no</th>
+                            <th width="125">Date</th>
+                            <th width="125">From</th>
+                            <th width="125">To</th>
+                            <th width="125">BOOM status</th>
+                            <th width="125">Reason</th>
+                            <th width="125">Crane position</th>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC 07</td>
+                                <td width="125">5-Apr</td>
+                                <td width="125">0700</td>
+                                <td width="125">2100</td>
+                                <td width="125">Down</td>
+                                <td width="125">Wire change</td>
+                                <td width="125">25-75</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">QC 02</td>
+                                <td width="125">7-Apr</td>
+                                <td width="125">0900</td>
+                                <td width="125">1100</td>
+                                <td width="125">Up</td>
+                                <td width="125">PM</td>
+                                <td width="125">50-100</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="myDIV8"><li><a href="#">IT<i class="fas fa-caret-right"></i></a></li></div>
+                    <div class="hide8"><table bgcolor="black" width="1000">
+                        <table bgcolor="black" width="1000">
+                            <tr bgcolor="#DBDADD" align="center">
+                            <th width="125"></th>
+                            <th width="125">Request</th>
+                            <th width="125">Date</th>
+                            <th width="125">From</th>
+                            <th width="125">To</th>
+                            <th width="125">Reason</th>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125">downtime request</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="myDIVNEW"><li><a href="#">Vessel Status <i class="fas fa-caret-right"></i></a></li></div>
+                    <div class="hideNEW"><table bgcolor="black" width="1200">
+                        <tr bgcolor="#DBDADD" align="center">
+                        <th width="125">Berth status</th>
+                        <th width="125">Vessel name</th>
+                        <th width="125">SAUDI EDI</th>
+                        <th width="125">Load permit</th>
+                        <th width="125">Loading</th>
+                        <th width="125">Full 2 point loading</th>
+                        <th width="125">AutoStow</th>
+                        <th width="125">Port clearance</th>
+                        <th width="125">GMPH</th>
+                        <th width="125">Berth no</th>
+                        </tr>
+                        <tr bgcolor="white" align="center">
+                            <td width="125">Alongside</td>
+                            <td width="125">GFS JUNO</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Approved</td>
+                            <td width="125">Y</td>
+                            <td width="125">N</td>
+                            <td width="125">Available</td>
+                            <td width="125">30</td>
+                            <td width="125">R1</td>
+                        </tr>
+                        <tr bgcolor="white" align="center">
+                            <td width="125">Alongside</td>
+                            <td width="125">PORT SMOUTH</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Not approved</td>
+                            <td width="125">N</td>
+                            <td width="125">Y</td>
+                            <td width="125">NA</td>
+                            <td width="125">34</td>
+                            <td width="125">R2</td>
+                        </tr>
+                        <tr bgcolor="white" align="center">
+                            <td width="125">Alongside</td>
+                            <td width="125">GFS PRIDE</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Clear</td>
+                            <td width="125">Planned</td>
+                            <td width="125">Y</td>
+                            <td width="125">N</td>
+                            <td width="125">NA</td>
+                            <td width="125">28</td>
+                            <td width="125">R4</td>
+                        </tr>
+                        <tr bgcolor="white" align="center">
+                            <td width="125">Not Arrived</td>
+                            <td width="125">Marsa Neptune</td>
+                            <td width="125">Not Clear</td>
+                            <td width="125">Not Clear</td>
+                            <td width="125">Not Planned</td>
+                            <td width="125">NA</td>
+                            <td width="125">NA</td>
+                            <td width="125">NA</td>
+                            <td width="125"></td>
+                            <td width="125">B6</td>
+                        </tr>
+                        <tr bgcolor="white" align="center">
+                            <td width="125">Arrived</td>
+                            <td width="125">ESCADA</td>
+                            <td width="125">Not Clear</td>
+                            <td width="125">Clear</td>
+                            <td width="125">SI not received</td>
+                            <td width="125">NA</td>
+                            <td width="125">NA</td>
+                            <td width="125">NA</td>
+                            <td width="125"></td>
+                            <td width="125">B4</td>
+                        </tr>
+                    </table>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Terminal Notifications <i class="fas fa-caret-down"></i> </a>
+            <div class="dropdown-menu-20">
+                <ul>
+                    <li><a href="#">New notification</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#">Port Control<i class="fas fa-caret-down"></i> </a>
+            <div class="dropdown-menu-30">
+                <ul>
+                    <div class="myDIV7"><li><a href="#">Port Movements<i class="fas fa-caret-right"></i></a></li></div>
+                    <div class="hide7"><table bgcolor="black" width="1200">
+                        <table bgcolor="black" width="1200">
+                            <tr bgcolor="#DBDADD" align="center">
+                            <th width="125">B/S sequence</th>
+                            <th width="125">Vessel Name</th>
+                            <th width="125">Berth no.</th>
+                            <th width="125">ETA</th>
+                            <th width="125">ETC</th>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">1</td>
+                                <td width="125">GFS JUNO</td>
+                                <td width="125">R1</td>
+                                <td width="125"></td>
+                                <td width="125">3 Apr 1000</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">2</td>
+                                <td width="125">PORT SMOUTH</td>
+                                <td width="125">R2</td>
+                                <td width="125">3 Apr 1700</td>
+                                <td width="125"></td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">3</td>
+                                <td width="125">GFS PRIDE</td>
+                                <td width="125">R4</td>
+                                <td width="125"></td>
+                                <td width="125">3 Apr 1900</td>
+                            </tr>
+                            <tr bgcolor="white" align="center">
+                                <td width="125">4</td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                <td width="125"></td>
+                                </tr>
+                                <tr bgcolor="white" align="center">
+                                    <td width="125">5</td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                    </tr>
+                                <tr bgcolor="white" align="center">
+                                    <td width="125">6</td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                    <td width="125"></td>
+                                </tr>
+                            </table>
+                    </div>
+                </ul>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    <section class="terminal">
+        &nbsp;
+    </section>
+</body>
+</html>
+
+<!--<div class="dropdown-menu-3">
+    <ul>
+        <li><a href="#"></a></li>
+    </ul>>
+    <div class="myDIV"><li><a href="#">Update Vessel ETA <i class="fas fa-caret-right"></i> </a></div>
+                            <div class="hide"><table bgcolor="black" width="1000">
+                            <table bgcolor="black" width="1000">
+                                <tr bgcolor="#DBDADD" align="center">
+                                <th width="125">Vessel Name</th>
+                                <th width="125">VOY no</th>
+                                <th width="125">Service name</th>
+                                <th width="125">Date and time</th>
+                                <th width="125">Vessel draft</th>
+                                <th width="125"> LOA</th>
